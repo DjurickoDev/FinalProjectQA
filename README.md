@@ -1,18 +1,30 @@
-## Getting Started
+Selenium Final Exam Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Overview
 
-## Folder Structure
+This repository contains my final exam project for Selenium automation using Visual Studio Code and Java. 
 
-The workspace contains two folders by default, where:
+Project Structure:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+src: Contains the Java source code for the Selenium automation scripts.
+pages: Includes page object classes representing different pages of the application.
+test: Test cases for various scenarios.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Tools and Technologies:
 
-## Dependency Management
+- Selenium WebDriver: Used for browser automation.
+- Visual Studio Code: Chosen as the integrated development environment (IDE).
+- Java: The programming language for Selenium scripts.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ Setup and Execution
+
+1. Prerequisites:
+   - Ensure Java is installed.
+   - Install Visual Studio Code and necessary extensions.
+   - Import the required JAR files for Selenium WebDriver.
+
+2. Clone the Repository:
+   
+   git clone https://github.com/your-username/selenium-final-exam.git
+  
