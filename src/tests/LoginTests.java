@@ -16,7 +16,7 @@ public class LoginTests extends BaseTest {
   String expectedErrorWrongCredentials = "Please enter a valid email address (Ex: johndoe@domain.com).";
  
   @Test
-  public void verifySuccesfulLogin() {
+  public void verifySuccesfulSignIn() {
     HomePage homePage = new HomePage(driver);
     SignInPage signInPage = new SignInPage(driver);
     // MyAccountPage myAccountPage = new MyAccountPage(driver);
@@ -48,7 +48,7 @@ public class LoginTests extends BaseTest {
   // myaccount.
 
   @Test
-  public void verifyUnsuccessfulLoginEmptyEmail() {
+  public void verifyUnsuccessfulSignInEmptyEmail() {
     HomePage homePage = new HomePage(driver);
     SignInPage signInPage = new SignInPage(driver);
 
@@ -62,7 +62,7 @@ public class LoginTests extends BaseTest {
   }
 
   @Test
-  public void verifyUnsuccessfulLoginEmptyPassword() {
+  public void verifyUnsuccessfulSignInEmptyPassword() {
     HomePage homePage = new HomePage(driver);
     SignInPage signInPage = new SignInPage(driver);
     BasePage basePage = new BasePage(driver);
@@ -77,7 +77,7 @@ public class LoginTests extends BaseTest {
   }
 
   @Test
-  public void verifyUnsuccessfulLoginWrongCredentials() {
+  public void verifyUnsuccessfulSignInWrongCredentials() {
     HomePage homePage = new HomePage(driver);
     SignInPage signInPage = new SignInPage(driver);
 
@@ -94,7 +94,7 @@ public class LoginTests extends BaseTest {
   
 
   @Test
-  public void verifySucessfulLogout() {
+  public void verifySucessfulSignOut() {
     HomePage homePage = new HomePage(driver);
     SignInPage signInPage = new SignInPage(driver);
     BasePage basePage = new BasePage(driver);
