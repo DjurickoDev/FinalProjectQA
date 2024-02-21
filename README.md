@@ -7,7 +7,9 @@ This repository contains my final exam project for Selenium automation using Vis
 Project Structure:
 
 src: Contains the Java source code for the Selenium automation scripts.
+
 pages: Includes page object classes representing different pages of the application.
+
 test: Test cases for various scenarios.
 
 
