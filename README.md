@@ -28,5 +28,5 @@ Tools and Technologies:
 
 2. Clone the Repository:
    
-   git clone https://github.com/your-username/selenium-final-exam.git
+https://github.com/DjurickoDev/FinalProjectQA.git
   
